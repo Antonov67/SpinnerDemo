@@ -40,9 +40,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, items);
         spinner.setAdapter(adapter);
 
-       //
-        // items.add("Dart");
-        adapter.notifyDataSetChanged();
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
